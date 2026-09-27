@@ -1,9 +1,9 @@
-import react from {"react"}
+import react from "react";
 
-function App() {
+function Normalbutton(props) {
   return (
-    <button></button>
+    <button href={props.link} class='normalbtn' >{props.txt}</button>
   );
 }
 
-export default App;
+export default Normalbutton;
