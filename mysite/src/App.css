@@ -100,6 +100,28 @@ h1 > span
 
 }
 
+
+
+.loginpage
+{
+    background: #1b1616;
+}
+
+
+.loginform
+{
+    width: 60% ;
+    height: 80vh;
+    background: #060505;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    color: white;
+    text-align: center;
+
+}
+
 @media only screen and (max-width:700px)
 {
     h1

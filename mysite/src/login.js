@@ -2,8 +2,16 @@ import react from "react";
 
 function LoginPage(){
     return (
-        <div>
-            
+        <div class="loginpage" >
+            <div class="loginform" >
+                <h1>Login</h1>
+                <form>
+                    <input type="email" placeholder="Email" ></input><br></br>
+                    <input type="password" placeholder="Password" ></input><br></br>
+                    <button class="normalbtn" type="submit" >Login</button>
+                </form>
+
+            </div>
         </div>
     )
 }

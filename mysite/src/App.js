@@ -3,31 +3,38 @@ import './App.css';
 import Normalbutton from "./Normalbtn";
 import Nav from './navbar';
 import Footer from "./footer";
+import {BrowserRouter, Routes, Route , Link } from "react-router-dom";
+import LoginPage from './login';
 
+
+
+function Home() {
+  return (
+    <div>
+      <Nav></Nav>
+
+      <h1>Welcome to <br></br> <span>" EkDoubtHai "</span> </h1>
+
+      <Link to="/" ><Normalbutton link="#" txt="Sign up"></Normalbutton></Link>
+      <Link to="/login" ><Normalbutton link="/login" txt="Login"></Normalbutton></Link>
+
+      <Footer></Footer>
+    </div>
+  )
+}
 
 function App() {
   return (
-    <div>
-      
-      <Nav></Nav>
+    <BrowserRouter>
+     
+        <Routes>
+          <Route path="/" element={<Home></Home>} ></Route>
 
-      <br></br>
-      <h1>Welcome to <br></br> <span>" EkDoubtHai "</span> </h1>
+          <Route path="/login" element={<LoginPage></LoginPage>} ></Route>
+        </Routes>
 
-      <Normalbutton link = "./login.js" txt="Log in"></Normalbutton>
+  </BrowserRouter>
 
-      <Normalbutton link="#" txt="Sign up"></Normalbutton>
-
-
-
-
-
-
-
-      
-      <Footer/>
-
-    </div>
   );
 }
 
