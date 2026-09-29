@@ -6,8 +6,8 @@ function LoginPage(){
             <div class="loginform" >
                 <h1>Login</h1>
                 <form>
-                    <input type="email" placeholder="Email" ></input><br></br>
-                    <input type="password" placeholder="Password" ></input><br></br>
+                    <input class="inputbox" type="email" placeholder="Email" ></input><br></br>
+                    <input class="inputbox" type="password" placeholder="Password" ></input><br></br>
                     <button class="normalbtn" type="submit" >Login</button>
                 </form>
 

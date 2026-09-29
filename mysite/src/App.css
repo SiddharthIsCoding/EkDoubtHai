@@ -122,6 +122,18 @@ h1 > span
 
 }
 
+.inputbox
+{
+    width:60%;
+    height:40px;
+    background: #060505;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
 @media only screen and (max-width:700px)
 {
     h1
