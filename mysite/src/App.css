@@ -110,16 +110,22 @@ h1 > span
 
 .loginform
 {
-    width: 60% ;
-    height: 80vh;
+    width: 40% ;
+    min-height: 40vh;
     background: #060505;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10vh;
+    padding: 30px;
+    margin-top: 5vh;
     color: white;
     text-align: center;
 
+}
+
+.loginform > h1
+{
+    font-size:30px;
 }
 
 .inputbox
